@@ -11,7 +11,7 @@ class Hand:
         
     def has_pair(self):
         temp_set = set(self.values)
-        print(temp_set)
+       
         if len(temp_set) == 4:
             return True
     def has_flush(self):
